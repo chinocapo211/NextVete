@@ -1,3 +1,42 @@
+/* Navbar.css */
+.navbar {
+  background-color: #333;
+  color: #fff;
+  padding: 10px 20px;
+}
+
+.navbar-container {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+}
+
+.navbar-logo {
+  font-size: 24px;
+  color: #fff;
+  text-decoration: none;
+}
+
+.navbar-menu {
+  list-style: none;
+  display: flex;
+  gap: 15px;
+}
+
+.navbar-item {
+  margin: 0;
+}
+
+.navbar-link {
+  color: #fff;
+  text-decoration: none;
+  font-size: 18px;
+}
+
+.navbar-link:hover {
+  text-decoration: underline;
+}
+
 .main {
   display: flex;
   flex-direction: column;
@@ -227,4 +266,31 @@
   to {
     transform: rotate(0deg);
   }
+}
+.boton-eliminar{
+  background-color: #fc7f7f; /* Color de fondo rojo */
+  color: white; /* Color del texto */
+  border: none; /* Sin borde */
+  padding: 8px 16px; /* Espaciado interno */
+  border-radius: 4px; /* Bordes redondeados */
+  cursor: pointer; /* Cursor de apuntar */
+  transition: background-color 0.3s; /* Transición suave */
+}
+
+.boton-eliminar:hover {
+  background-color: #cf6b6b; /* Color de fondo rojo más oscuro al pasar el ratón */
+}
+
+.cita-card{
+  border: 2px solid rgb(73, 73, 73);
+  padding-left: 10px;
+  padding-right: 10px;
+  padding-bottom: 15px;
+  border-radius: 10px;
+  margin-bottom: 20px;
+}
+.all{
+  background-color: #cf6b6b;
+  width: "100%";
+  height: "100%";
 }

@@ -1,5 +1,6 @@
 "use client"
 import Cita from './Cita.jsx';
+import style from "../page.module.css"
 import React, { useState } from 'react';
 function ListadoCitas({ listaCitas, onDelete }) {
   if (!Array.isArray(listaCitas)) {
@@ -7,7 +8,7 @@ function ListadoCitas({ listaCitas, onDelete }) {
   }
 
   return (
-    <div className="listado-citas">
+    <div className={style["listado-citas"]}>
       {listaCitas.map((cita, index) => (
         <Cita
           key={index}

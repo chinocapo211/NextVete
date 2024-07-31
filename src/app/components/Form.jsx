@@ -1,5 +1,6 @@
 "use client"
 import React, { useState } from 'react';
+import style from "../page.module.css"
 function Form({ onAddCita }) {
   const [nombreMascota, setNombreMascota] = useState('');
   const [nombreDueno, setNombreDueno] = useState('');
@@ -20,7 +21,7 @@ function Form({ onAddCita }) {
   };
 
   return (
-    <div class='form'>
+    <div className={style["form"]}>
       <form onSubmit={handleSubmit}>
         <label htmlFor="nombre-mascota">Nombre de la Mascota:</label><br />
         <input
