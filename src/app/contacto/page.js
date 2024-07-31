@@ -5,10 +5,12 @@ import React, { useState } from 'react';
 import style from "../page.module.css"
 const Contacto = () => {
   return (
-    <div className={style["all"]}>
+    <body>
       <Navbar/>
+      <div className={style["all"]}>
       <h1>Contacto</h1>
-    </div>
+      </div>   
+    </body>
   );
 };
 
