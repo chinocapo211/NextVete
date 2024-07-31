@@ -18,17 +18,17 @@ const Turno = () => {
     setCitas(nuevasCitas);
   };
   return (
-    <div>
+    <div >
       <Navbar/>
-      <div className={style["all"]}>
-        <div>
-        <h1>Citas veterinaria</h1>
-          <div className='App'>
-          <Form onAddCita={agregarCita}/>
+      <div className={style["center"]}>
+      <h1>Saca turno</h1>
+        <div className={style["caja3"]}>
+          <div className={style["formu"]}>
+            <Form onAddCita={agregarCita}/>
           </div>
-        </div>
-        <div>
-        <ListadoCitas listaCitas={citas} onDelete={eliminarCita}/>
+          <div className={style["lista"]}>
+            <ListadoCitas listaCitas={citas} onDelete={eliminarCita}/>
+          </div>
         </div>
       </div>
     </div>

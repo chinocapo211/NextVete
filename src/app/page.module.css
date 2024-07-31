@@ -72,3 +72,83 @@
   justify-content: center;
   margin-top: 3%;
 }
+.caja2{
+  margin:0;
+  width: 70%;
+  height: 100%;
+  text-align: center;
+  margin-left: 15%;
+  justify-content: center;
+  margin-top: 3%;
+}
+.caja{
+display: flex;
+width: 100%;
+justify-content: space-between;
+gap: 100px;
+}
+.caja3{
+  display: flex;
+  width: 70%;
+  justify-content: space-between;
+  gap: 100px;
+  margin:0;
+  height: 100%;
+  margin-left: 15%;
+  margin-top: 1%;
+}
+.formu{
+  width: 35%;
+}
+.lista{
+  width: 35%;
+}
+.center h1{
+  text-align: center;
+}
+.center{
+  margin-top: 3%;
+}
+#contact-form {
+  display: flex;
+  flex-direction: column;
+  max-width: 600px;
+  margin: 0 auto;
+  padding: 20px;
+  background-color: #fff;
+  border-radius: 10px;
+  box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+}
+.form-group {
+  margin-bottom: 15px;
+}
+.form-group label {
+  display: block;
+  margin-bottom: 5px;
+  font-weight: bold;
+  font-size: 20px;
+}
+.form-group textarea {
+  width: 100%;
+  padding: 10px;
+  border: 1px solid #ccc;
+  border-radius: 5px;
+  font-size: 16px;
+  resize: vertical;
+  height: 100px;
+}
+.button {
+  background-color: #007BFF;
+  color: #fff;
+  padding: 10px 20px;
+  border: none;
+  border-radius: 5px;
+  font-size: 16px;
+  cursor: pointer;
+  display: block;
+  width: 100%;
+}
+
+.button:hover {
+  background-color: #0056b3;
+}
